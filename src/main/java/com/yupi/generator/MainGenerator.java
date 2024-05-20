@@ -11,7 +11,7 @@ public class MainGenerator {
 
         String projectPath = System.getProperty("user.dir");
         File parentFile = new File(projectPath).getParentFile();
-        String inputPath =new File(parentFile, "acm-template").getAbsolutePath();
+        String inputPath =new File(parentFile, "yupi-generator/acm-template").getAbsolutePath();
         String outputPath =projectPath;
         System.out.println("inputPath:"+inputPath);
         System.out.println("outputPath:"+outputPath);
