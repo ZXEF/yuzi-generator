@@ -14,7 +14,7 @@
         "inputPath": "src/com/yupi/acm/MainTemplate.java.ftl",
         "outputPath": "src/com/yupi/acm/MainTemplate.java",
         "type": "file",
-        "generateType": "dynamic",
+        "generateType": "dynamic"
 
       },
       {

@@ -11,10 +11,9 @@ public class DynamicFileGenerator {
 
     public static void doGenerate(String inputPath, String outputPath,Object model ) throws IOException, TemplateException {
         //new出Configuration对象 参数为2_3_23版本  freemarker版本号
-        Configuration configuration=new Configuration(Configuration.VERSION_2_3_23);
+        Configuration configuration=new Configuration(Configuration.VERSION_2_3_31);
         //设置模板文件所在目录
         File templateDir=new File(inputPath).getParentFile();
-        System.out.println("sout:"+templateDir.getAbsolutePath());
         configuration.setDirectoryForTemplateLoading(templateDir);
 
         //设置默认编码

@@ -1,9 +1,7 @@
 package com.yupi.maker.meta;
 
 import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.util.ReflectUtil;
 import cn.hutool.json.JSONUtil;
-import jdk.internal.loader.Resource;
 
 public class MetaManager {
     private static volatile Meta meta;

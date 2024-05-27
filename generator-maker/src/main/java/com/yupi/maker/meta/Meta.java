@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 public class Meta {
 
-    private String mame;
+    private String name;
     private String description;
     private String basePackage;
     private String version;
@@ -47,7 +47,7 @@ public class Meta {
             private String fieldName;
             private String type;
             private String description;
-            private Object defaultValue;
+            private String defaultValue;
             private String abbr;
         }
     }
