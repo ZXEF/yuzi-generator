@@ -38,7 +38,7 @@ public abstract class GenerateTemplate {
         buildDist(outputPath, sourceCopyDestPath, shellOutputFilePath, jarPath);
 //        String outputFilePath;
 //        String inputFilePath;
-//
+//暂时没用
 //        // README.md
 //        inputFilePath = inputResourcePath + File.separator + "templates/README.md.ftl";
 //        outputFilePath = outputPath + File.separator + "README.md";
